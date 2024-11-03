@@ -1,21 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --font-small: 12px;
   --font-medium: 16px;
   --font-large: 20px;
   --font-extra-large: 24px;
+  --foreground-color: #E2D2DC;
+  --main-bg-image: url("./public/jjk-yuji-itadori-curse-red-black-horror-desktop-wallpaper.jpg");
 }
 
 .dynapuff-font {
-  font-family: "DynaPuff", system-ui;
-  font-size: 120px;
+  font-family: "DynaPuff", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 120px;
+  font-style: normal;
+  color: var(--foreground-color)
 }
 
 .montserrat-font {
   font-family: "Montserrat", serif;
+}
+
+.main-background {
+  background-image: var(--main-bg-image);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-size {
+  width: 30px;
+  height: 30px;
 }
