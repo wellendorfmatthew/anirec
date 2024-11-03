@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-small: 12px;
+  --font-medium: 16px;
+  --font-large: 20px;
+  --font-extra-large: 24px;
+}
+
+.dynapuff-font {
+  font-family: "DynaPuff", system-ui;
+  font-size: 120px;
+  font-weight: 400;
+}
+
+.montserrat-font {
+  font-family: "Montserrat", serif;
+}
