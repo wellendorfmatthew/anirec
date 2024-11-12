@@ -9,7 +9,7 @@
   --font-large: 20px;
   --font-extra-large: 24px;
   --foreground-color: #E2D2DC;
-  --main-bg-image: url("./public/jjk-yuji-itadori-curse-red-black-horror-desktop-wallpaper.jpg");
+  --main-bg-image: url("/jjk-yuji-itadori-curse-red-black-horror-desktop-wallpaper.jpg");
 }
 
 .dynapuff-font {
@@ -23,8 +23,19 @@
   color: var(--foreground-color)
 }
 
+.filter-title {
+  font-weight: 400;
+  font-size: var(--font-extra-large);
+}
+
 .montserrat-font {
   font-family: "Montserrat", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.format-title {
+  font-size: var(--font-small);
 }
 
 .main-background {
@@ -36,4 +47,5 @@
 .image-size {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
